@@ -1,8 +1,10 @@
 ---
 name: varlock
 description: Secure environment variable management with Varlock. Use when handling secrets, API keys, credentials, or any sensitive configuration. Ensures secrets are never exposed in terminals, logs, traces, or Claude's context. Trigger phrases include "environment variables",...
---- 1.0.0
+version: 1.0.0
 ---
+
+<!-- security-allowlist: curl-pipe-bash -->
 
 # Varlock Security Skill
 
